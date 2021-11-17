@@ -75,7 +75,6 @@ RUN set -x \
 
 RUN set -x \
     # Install services
-    && chmod +x /opt/docker/bin \
     && apk-install \
         supervisor \
         wget \
